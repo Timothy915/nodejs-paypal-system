@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Success Page</title>
+</head>
+<style>
+
+/* Reset some default styles for consistency */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the success message vertically and horizontally */
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Fallback background color */
+}
+
+/* Style the success message box */
+.success-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the heading and paragraph */
+.success-message h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    font-size: 18px;
+}
+
+/* Add a slight hover effect for interaction */
+.success-message:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+</style>
+<body>
+    <div class="success-container">
+        <div class="success-message">
+            <h1>Success!</h1>
+            <p>Your action was completed successfully.</p>
+        </div>
+    </div>
+</body>
+</html>
+
